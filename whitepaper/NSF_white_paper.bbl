@@ -1,0 +1,691 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Palagi2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=32ca3d3df84d47bd9ea968b61d748b1c}{%
+           family={Palagi},
+           familyi={P\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f5ccb4567b6edaf6eeecf5e629b32fed}{%
+           family={Fischer},
+           familyi={F\bibinitperiod},
+           given={Peer},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{7eb10ad52893a043dfeff61b5d355d32}
+      \strng{fullhash}{7eb10ad52893a043dfeff61b5d355d32}
+      \strng{bibnamehash}{7eb10ad52893a043dfeff61b5d355d32}
+      \strng{authorbibnamehash}{7eb10ad52893a043dfeff61b5d355d32}
+      \strng{authornamehash}{7eb10ad52893a043dfeff61b5d355d32}
+      \strng{authorfullhash}{7eb10ad52893a043dfeff61b5d355d32}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Materials}
+      \field{title}{Bioinspired microrobots}
+      \field{volume}{3}
+      \field{year}{2018}
+      \field{pages}{113\bibrangedash 124}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1038/s41578-018-0016-9
+      \endverb
+    \endentry
+    \entry{Sun2019}{article}{}
+      \name{author}{4}{}{%
+        {{hash=5541cd69dde50ba09f8968212da6602c}{%
+           family={Sun},
+           familyi={S\bibinitperiod},
+           given={Jiawei},
+           giveni={J\bibinitperiod}}}%
+        {{hash=cfcad2b369736af2a84002b8a2c3765a}{%
+           family={Mathesh},
+           familyi={M\bibinitperiod},
+           given={Motilal},
+           giveni={M\bibinitperiod}}}%
+        {{hash=be6f1b6df7f1ddfafad18806238fa391}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f376b4cf27005e3830e637659302d021}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Daniela\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{2fd1c93855036af74f4a7f47dca2c8db}
+      \strng{fullhash}{7a0f3249cc6cb5299baae53aedef7850}
+      \strng{bibnamehash}{7a0f3249cc6cb5299baae53aedef7850}
+      \strng{authorbibnamehash}{7a0f3249cc6cb5299baae53aedef7850}
+      \strng{authornamehash}{2fd1c93855036af74f4a7f47dca2c8db}
+      \strng{authorfullhash}{7a0f3249cc6cb5299baae53aedef7850}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ACS Nano}
+      \field{title}{Enzyme-Powered Nanomotors with Controlled Size for Biomedical Applications}
+      \field{volume}{13}
+      \field{year}{2019}
+      \field{pages}{10191\bibrangedash 10200}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1021/acsnano.9b03358
+      \endverb
+    \endentry
+    \entry{Koleoso2020}{article}{}
+      \name{author}{6}{}{%
+        {{hash=ae66f1a47ad4c93a412584b4cd8d6780}{%
+           family={Koleoso},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=76ea44714785be027d3b3255b26eeeff}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+        {{hash=ffe38860989242342979ce6d673cd64a}{%
+           family={Xue},
+           familyi={X\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=34eb0d3545d5a6175d27a342936002b1}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Q.},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=6924fb84b1e1a17a4fbf7e3a6d04a668}{%
+           family={Munshi},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=60aeb23a507616b6ae2488ddaab41f0e}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={X.},
+           giveni={X\bibinitperiod}}}%
+      }
+      \strng{namehash}{d219eb3c102f7d93ad849bc73710a23a}
+      \strng{fullhash}{4102553749ac3cbc7455fa2183edf2d6}
+      \strng{bibnamehash}{4102553749ac3cbc7455fa2183edf2d6}
+      \strng{authorbibnamehash}{4102553749ac3cbc7455fa2183edf2d6}
+      \strng{authornamehash}{d219eb3c102f7d93ad849bc73710a23a}
+      \strng{authorfullhash}{4102553749ac3cbc7455fa2183edf2d6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Materials Today Bio}
+      \field{title}{Micro/nanoscale magnetic robots for biomedical applications}
+      \field{volume}{8}
+      \field{year}{2020}
+      \field{pages}{100085}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1016/j.mtbio.2020.100085
+      \endverb
+    \endentry
+    \entry{Gumuskaya2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=3c2d751fcb058c83b8a82e307cc50e7f}{%
+           family={Gumuskaya},
+           familyi={G\bibinitperiod},
+           given={Gizem},
+           giveni={G\bibinitperiod}}}%
+        {{hash=8016a8e8fb79be2983331ac69cc1d6f1}{%
+           family={Srivastava},
+           familyi={S\bibinitperiod},
+           given={Pranjal},
+           giveni={P\bibinitperiod}}}%
+        {{hash=3d885815a5c73b5a2f7d8fcb09d841d4}{%
+           family={Cooper},
+           familyi={C\bibinitperiod},
+           given={Ben\bibnamedelima G.},
+           giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=1f97780744cbc43bd505257acb194c10}{%
+           family={Lesser},
+           familyi={L\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod}}}%
+        {{hash=07db32a08f7423375e1827d93c88185b}{%
+           family={Semegran},
+           familyi={S\bibinitperiod},
+           given={Ben},
+           giveni={B\bibinitperiod}}}%
+        {{hash=3b4e40822f9866bf5b5d39489f921db0}{%
+           family={Garnier},
+           familyi={G\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+        {{hash=b894ed954a34072e79a8714d134644ba}{%
+           family={Levin},
+           familyi={L\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac6a66a544de9bf3e7c9cdef59d21261}
+      \strng{fullhash}{f1f1597c0d43cd5aef4e8842b24a9f99}
+      \strng{bibnamehash}{f1f1597c0d43cd5aef4e8842b24a9f99}
+      \strng{authorbibnamehash}{f1f1597c0d43cd5aef4e8842b24a9f99}
+      \strng{authornamehash}{ac6a66a544de9bf3e7c9cdef59d21261}
+      \strng{authorfullhash}{f1f1597c0d43cd5aef4e8842b24a9f99}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Science}
+      \field{title}{Motile Living Biobots Self‐Construct from Adult Human Somatic Progenitor Seed Cells}
+      \field{volume}{11}
+      \field{year}{2023}
+      \verb{doi}
+      \verb 10.1002/advs.202303575
+      \endverb
+    \endentry
+    \entry{Maria‐Hormigos2022}{article}{}
+      \name{author}{3}{}{%
+        {{hash=6496f38de1f31478bc3005adcc928fa3}{%
+           family={Maria-Hormigos},
+           familyi={M\bibinithyphendelim H\bibinitperiod},
+           given={Roberto},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b69df1157cbd97e206e331ba6ee2dc54}{%
+           family={Mayorga-Martinez},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Carmen\bibnamedelima C.},
+           giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=f32a8418d3bb6a89aa7d2e5bdb02c116}{%
+           family={Pumera},
+           familyi={P\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \strng{fullhash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \strng{bibnamehash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \strng{authorbibnamehash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \strng{authornamehash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \strng{authorfullhash}{1101bc659d31cf8fe0e7c35682a9f17f}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Small Methods}
+      \field{title}{Soft Magnetic Microrobots for Photoactive Pollutant Removal}
+      \field{volume}{7}
+      \field{year}{2022}
+      \field{pages}{2201014}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/smtd.202201014
+      \endverb
+    \endentry
+    \entry{Urso2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=2ca94582426255aa81904b7ac6a9f750}{%
+           family={Urso},
+           familyi={U\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=e2c15d445d4245b3ff5df2c259f98cac}{%
+           family={Ussia},
+           familyi={U\bibinitperiod},
+           given={Martina},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f32a8418d3bb6a89aa7d2e5bdb02c116}{%
+           family={Pumera},
+           familyi={P\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{ea5d867761aa8f904e1a0a394f997cee}
+      \strng{fullhash}{ea5d867761aa8f904e1a0a394f997cee}
+      \strng{bibnamehash}{ea5d867761aa8f904e1a0a394f997cee}
+      \strng{authorbibnamehash}{ea5d867761aa8f904e1a0a394f997cee}
+      \strng{authornamehash}{ea5d867761aa8f904e1a0a394f997cee}
+      \strng{authorfullhash}{ea5d867761aa8f904e1a0a394f997cee}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nature Reviews Bioengineering}
+      \field{title}{Smart micro- and nanorobots for water purification}
+      \field{volume}{1}
+      \field{year}{2023}
+      \field{pages}{236\bibrangedash 251}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1038/s44222-023-00025-9
+      \endverb
+    \endentry
+    \entry{Preetam2024}{article}{}
+      \name{author}{1}{}{%
+        {{hash=a2ad391ae8fd676fb4fe7722c9ee235d}{%
+           family={Preetam},
+           familyi={P\bibinitperiod},
+           given={Subham},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \strng{fullhash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \strng{bibnamehash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \strng{authorbibnamehash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \strng{authornamehash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \strng{authorfullhash}{a2ad391ae8fd676fb4fe7722c9ee235d}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Nanoscale Advances}
+      \field{title}{Nano revolution: pioneering the future of water reclamation with micro-/nano-robots}
+      \field{volume}{6}
+      \field{year}{2024}
+      \field{pages}{2569\bibrangedash 2581}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1039/d3na01106b
+      \endverb
+    \endentry
+    \entry{Urso2022}{article}{}
+      \name{author}{2}{}{%
+        {{hash=2ca94582426255aa81904b7ac6a9f750}{%
+           family={Urso},
+           familyi={U\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod}}}%
+        {{hash=f32a8418d3bb6a89aa7d2e5bdb02c116}{%
+           family={Pumera},
+           familyi={P\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \strng{fullhash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \strng{bibnamehash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \strng{authorbibnamehash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \strng{authornamehash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \strng{authorfullhash}{5c1fc2bcb5b4e40d741c98735be1e4b6}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Functional Materials}
+      \field{title}{Nano/Microplastics Capture and Degradation by Autonomous Nano/Microrobots: A Perspective}
+      \field{volume}{32}
+      \field{year}{2022}
+      \field{pages}{236\bibrangedash 251}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1002/adfm.202112120
+      \endverb
+    \endentry
+    \entry{Ling2018}{article}{}
+      \name{author}{9}{}{%
+        {{hash=a5b916ecf45d76de99f388705850ec5b}{%
+           family={Ling},
+           familyi={L\bibinitperiod},
+           given={Shengjie},
+           giveni={S\bibinitperiod}}}%
+        {{hash=64c1aac7456cc7c93d3b8b7e6ec22218}{%
+           family={Jin},
+           familyi={J\bibinitperiod},
+           given={Kai},
+           giveni={K\bibinitperiod}}}%
+        {{hash=e0a78be77fd79a1d26379de4e55c3dbc}{%
+           family={Qin},
+           familyi={Q\bibinitperiod},
+           given={Zhao},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=f2e68269a7e4b5255a15782127fb86e6}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Chunmei},
+           giveni={C\bibinitperiod}}}%
+        {{hash=10f03c7900058db9a01a81e5822da5fe}{%
+           family={Zheng},
+           familyi={Z\bibinitperiod},
+           given={Ke},
+           giveni={K\bibinitperiod}}}%
+        {{hash=8c43d5c215fa0efdbd377cf2c04c3578}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Yanyan},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=2ff53b99cb226c6384ebd0abb3e330b1}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Qi},
+           giveni={Q\bibinitperiod}}}%
+        {{hash=4cc784a241f13070165fbae3d4915535}{%
+           family={Kaplan},
+           familyi={K\bibinitperiod},
+           given={David\bibnamedelima L.},
+           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=6838714519bd96717809c86f9b41a59f}{%
+           family={Buehler},
+           familyi={B\bibinitperiod},
+           given={Markus\bibnamedelima J.},
+           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{e0a86387669fd2a45c6f23746c882c42}
+      \strng{fullhash}{f6ba8cfa06ac4b5878c521606883ea64}
+      \strng{bibnamehash}{f6ba8cfa06ac4b5878c521606883ea64}
+      \strng{authorbibnamehash}{f6ba8cfa06ac4b5878c521606883ea64}
+      \strng{authornamehash}{e0a86387669fd2a45c6f23746c882c42}
+      \strng{authorfullhash}{f6ba8cfa06ac4b5878c521606883ea64}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Materials}
+      \field{title}{Combining In Silico Design and Biomimetic Assembly: A New Approach for Developing High‐Performance Dynamic Responsive Bio‐Nanomaterials}
+      \field{volume}{30}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1002/adma.201802306
+      \endverb
+    \endentry
+    \entry{Zhang2019}{article}{}
+      \name{author}{5}{}{%
+        {{hash=b4b6035fbaa089ad869e2a08112c0cdf}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Heng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=88139b1378331883b76fd8ae3cf2f9f7}{%
+           family={Bu},
+           familyi={B\bibinitperiod},
+           given={Xiuming},
+           giveni={X\bibinitperiod}}}%
+        {{hash=558be290441cdc549b7b87a681401e60}{%
+           family={Yip},
+           familyi={Y\bibinitperiod},
+           given={SenPo},
+           giveni={S\bibinitperiod}}}%
+        {{hash=f7da983823ee0aeb4799b6dcb5d50907}{%
+           family={Liang},
+           familyi={L\bibinitperiod},
+           given={Xiaoguang},
+           giveni={X\bibinitperiod}}}%
+        {{hash=579a1c2e2d4f44ab1f7b1b49aa9c540f}{%
+           family={Ho},
+           familyi={H\bibinitperiod},
+           given={Johnny\bibnamedelima C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{03f1e1aad1e67cdf0a5260259d97615d}
+      \strng{fullhash}{79450a67c02ca470a8d2e6df5b292937}
+      \strng{bibnamehash}{79450a67c02ca470a8d2e6df5b292937}
+      \strng{authorbibnamehash}{79450a67c02ca470a8d2e6df5b292937}
+      \strng{authornamehash}{03f1e1aad1e67cdf0a5260259d97615d}
+      \strng{authorfullhash}{79450a67c02ca470a8d2e6df5b292937}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Intelligent Systems}
+      \field{title}{Self‐Assembly of Colloidal Particles for Fabrication of Structural Color Materials toward Advanced Intelligent Systems}
+      \field{volume}{2}
+      \field{year}{2019}
+      \field{pages}{1900085}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/aisy.201900085
+      \endverb
+    \endentry
+    \entry{Parreira2020}{article}{}
+      \name{author}{3}{}{%
+        {{hash=e41b0605b6e8005bd48bd41f8d013a1b}{%
+           family={Parreira},
+           familyi={P\bibinitperiod},
+           given={Raquel},
+           giveni={R\bibinitperiod}}}%
+        {{hash=a95f8823fd59d49a374de9bb43646142}{%
+           family={Özelçi},
+           familyi={Ö\bibinitperiod},
+           given={Ece},
+           giveni={E\bibinitperiod}}}%
+        {{hash=e42a3dd2fb4ac5062724aaffff96e1ec}{%
+           family={Sakar},
+           familyi={S\bibinitperiod},
+           given={Mahmut\bibnamedelima Selman},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \strng{namehash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \strng{fullhash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \strng{bibnamehash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \strng{authorbibnamehash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \strng{authornamehash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \strng{authorfullhash}{8085160abb5a890d6bed2c2b4f8b5d70}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advanced Intelligent Systems}
+      \field{title}{Remotely Controlled Colloidal Assembly of Soft Microrobotic Artificial Muscle}
+      \field{volume}{2}
+      \field{year}{2020}
+      \field{pages}{2000062}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1002/aisy.202000062
+      \endverb
+    \endentry
+    \entry{Zhao2023}{article}{}
+      \name{author}{7}{}{%
+        {{hash=34397eec03f6d12388d796e527307513}{%
+           family={Zhao},
+           familyi={Z\bibinitperiod},
+           given={Xiaoyan},
+           giveni={X\bibinitperiod}}}%
+        {{hash=9e2513d7de0548157cb37f1103afc486}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Weihong},
+           giveni={W\bibinitperiod}}}%
+        {{hash=625adcd640f37c51b209b82b979454e9}{%
+           family={Yang},
+           familyi={Y\bibinitperiod},
+           given={Shu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=12ff04828c6e69056518c34380130815}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Jiakun},
+           giveni={J\bibinitperiod}}}%
+        {{hash=400dfa415f254ac7cc13329b10faaec0}{%
+           family={Hasan},
+           familyi={H\bibinitperiod},
+           given={Md\bibnamedelima Said},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=48899e77d323b381b42acfe7d0d12b8a}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Zhiyue},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=cd9aa9896cc4766d04243e238db91722}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Huanhuan},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{1a21251a1ad3ac3c91e877ce159aa95b}
+      \strng{fullhash}{276e63f02c674762e9a79c8e4747406c}
+      \strng{bibnamehash}{276e63f02c674762e9a79c8e4747406c}
+      \strng{authorbibnamehash}{276e63f02c674762e9a79c8e4747406c}
+      \strng{authornamehash}{1a21251a1ad3ac3c91e877ce159aa95b}
+      \strng{authorfullhash}{276e63f02c674762e9a79c8e4747406c}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Textile Research Journal}
+      \field{title}{From silica colloidal particles to photonic crystals: Progress in fabrication and application of structurally colored materials}
+      \field{volume}{93}
+      \field{year}{2023}
+      \field{pages}{2877\bibrangedash 2893}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1177/00405175221146291
+      \endverb
+    \endentry
+    \entry{Abdoli2022}{article}{}
+      \name{author}{6}{}{%
+        {{hash=e8b77f95a10ba69a9d48f2f745143839}{%
+           family={Abdoli},
+           familyi={A\bibinitperiod},
+           given={Iman},
+           giveni={I\bibinitperiod}}}%
+        {{hash=30a5bb6ab0c6dc492a179d4afe254438}{%
+           family={Wittmann},
+           familyi={W\bibinitperiod},
+           given={René},
+           giveni={R\bibinitperiod}}}%
+        {{hash=4693e647e89a0bb412c119524a18c3f0}{%
+           family={Brader},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9c029c4e429d3d2797c392f67d91822b}{%
+           family={Sommer},
+           familyi={S\bibinitperiod},
+           given={Jens-Uwe},
+           giveni={J\bibinithyphendelim U\bibinitperiod}}}%
+        {{hash=51f282463b35b3efe039d5a2e6aace93}{%
+           family={Löwen},
+           familyi={L\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6bdea21e7182e30e59bc4e42d4a6378a}{%
+           family={Sharma},
+           familyi={S\bibinitperiod},
+           given={Abhinav},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Research Square Platform LLC}%
+      }
+      \strng{namehash}{fceeec9613691ca67b8af85e8c0c5546}
+      \strng{fullhash}{cf2f7c2251ff6004ae534db2791da03a}
+      \strng{bibnamehash}{cf2f7c2251ff6004ae534db2791da03a}
+      \strng{authorbibnamehash}{cf2f7c2251ff6004ae534db2791da03a}
+      \strng{authornamehash}{fceeec9613691ca67b8af85e8c0c5546}
+      \strng{authorfullhash}{cf2f7c2251ff6004ae534db2791da03a}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Research Square (preprint)}
+      \field{title}{Tunable Brownian magneto heat pump}
+      \field{year}{2022}
+      \verb{doi}
+      \verb 10.21203/rs.3.rs-1870440/v1
+      \endverb
+    \endentry
+    \entry{Hecht2022}{article}{}
+      \name{author}{4}{}{%
+        {{hash=85073ea842486d55ef88dea2eb3f07fa}{%
+           family={Hecht},
+           familyi={H\bibinitperiod},
+           given={Lukas},
+           giveni={L\bibinitperiod}}}%
+        {{hash=6527b036c778f015e20cda040c57ca0c}{%
+           family={Mandal},
+           familyi={M\bibinitperiod},
+           given={Suvendu},
+           giveni={S\bibinitperiod}}}%
+        {{hash=51f282463b35b3efe039d5a2e6aace93}{%
+           family={Löwen},
+           familyi={L\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=3fdb1a9a4cc10e1bf59c61b0de409753}{%
+           family={Liebchen},
+           familyi={L\bibinitperiod},
+           given={Benno},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{e3913c6ebc4e9a4dd5a59de82b637dd0}
+      \strng{fullhash}{b89b9a6725dc973f1a86795c6ebb404e}
+      \strng{bibnamehash}{b89b9a6725dc973f1a86795c6ebb404e}
+      \strng{authorbibnamehash}{b89b9a6725dc973f1a86795c6ebb404e}
+      \strng{authornamehash}{e3913c6ebc4e9a4dd5a59de82b637dd0}
+      \strng{authorfullhash}{b89b9a6725dc973f1a86795c6ebb404e}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{title}{Active Refrigerators Powered by Inertia}
+      \field{volume}{129}
+      \field{year}{2022}
+      \field{pages}{178001}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/physrevlett.129.178001
+      \endverb
+    \endentry
+    \entry{Derivaux2023}{article}{}
+      \name{author}{3}{}{%
+        {{hash=ecc15670f5fafd65c7e6ac5323d63721}{%
+           family={Derivaux},
+           familyi={D\bibinitperiod},
+           given={Jean-François},
+           giveni={J\bibinithyphendelim F\bibinitperiod}}}%
+        {{hash=614f835940aa2f47486f3a7e410e937d}{%
+           family={Jack},
+           familyi={J\bibinitperiod},
+           given={Robert\bibnamedelima L},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=159f7605315c5730f93239c7169456bd}{%
+           family={Cates},
+           familyi={C\bibinitperiod},
+           given={Michael\bibnamedelima E},
+           giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \strng{fullhash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \strng{bibnamehash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \strng{authorbibnamehash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \strng{authornamehash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \strng{authorfullhash}{1c8652a1b2d967ff171610bf221eb3e1}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Statistical Mechanics: Theory and Experiment}
+      \field{title}{Active–passive mixtures with bulk loading: a minimal active engine in one dimension}
+      \field{volume}{2023}
+      \field{year}{2023}
+      \field{pages}{083212}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1742-5468/acecfa
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
