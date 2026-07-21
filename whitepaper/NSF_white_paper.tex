@@ -4,7 +4,7 @@
 
 % page geometry, margins and figures
 \usepackage{geometry}
-\geometry{letterpaper, portrait, margin=0.75in}
+\geometry{letterpaper, portrait, margin=0.60in}
 
 % color and figures
 \usepackage{wrapfig}
@@ -99,7 +99,6 @@
 
 \newcommand{\highlight}[1]{{\color{RoyalBlue}#1}}
 
-
 %Merit Review Criteria 
 %(See NSF Proposal & Award Policies & Procedures Guide, Chapter III.A.2.)
 %All NSF proposals are evaluated through use of two National Science Board approved merit review criteria listed below. In some instances, however, NSF will employ additional criteria as required to highlight the specific objectives of certain programs and activities. Both criteria are to be given full consideration in the review; each criterion is necessary but neither, by itself, is sufficient.
@@ -113,16 +112,12 @@
 %•	How well qualified is the individual, team, or organization to conduct the proposed activities?
 %•	Are there adequate resources available to the PI (either at the home organization or through collaborations) to carry out the proposed activities?
 %Note that if additional supplementary documents are contained in the proposal, they should be reviewed as part of the Intellectual Merits and Broader Impacts, as appropriate.
-
-
-
 % }}}
 
 % ----- document text -----
 \begin{document}
 
 \title{A Theory-Driven and Experimentally-Validated Design Framework for Programming the Collective Behavior of Microrobots}
-%SWARM Swarming Acoustic Resonating MIcrorobots: Developing A Theoretical and Experimental Platform for Programmable Collective Behavior at the Microscale
 \author[1]{Cameron K. Peterson}
 \affil[1]{Electrical and Computer Engineering, Brigham Young University, \textit{ckp3@byu.edu}}
 \author[2]{Douglas R. Tree}
@@ -144,11 +139,10 @@
   \vspace{-19pt}
   \caption{
 Proposed framework for the design problem of programmable collective behavior in microrobot swarms.
-\textit{Microrobot physics} describes the physical mechanisms governing individual robots (e.g., acoustic streaming, magnetic interactions, and Brownian motion).
+\textit{Microrobot physics} describes the physical mechanisms governing individual robots (e.g., acoustic streaming, local magnetic interactions, and mechanical logic).
 \textit{Behavioral rules} describe coarse-grained local response laws, analogous to local rules in classic flocking and swarming models, that govern how individual robots change their motion, interactions, or internal state in response to neighboring robots or the environment.
 \textit{Collective behavior} describes the emergent swarm dynamics (e.g., toroids, swarming) arising from local interactions.
 The forward problem predicts collective behavior from the underlying robot physics, while the inverse-design problem seeks to determine the microrobot physics required to realize a desired collective behavior.
-%The proposed research establishes this framework through three integrated aims: (Aim 1) develop the theoretical and experimental foundations for behavioral-rule-based microrobotics, (Aim 2) establish quantitative mappings between microrobot physics and behavioral rules, and (Aim 3) demonstrate predictive design of programmable collective behavior.
   }
   \label{fig-materials}
 \end{wrapfigure}
@@ -169,44 +163,31 @@ Collective behavior emerges from many coupled local interactions, making it diff
 Furthermore, these local interactions depend on robot morphology, propulsion and actuation mechanism, material properties, and environmental physics, meaning that to date each microrobotic platform requires developing a new mapping from local interactions to collective behavior.
 In summary, the central barrier to realizing programmable microrobot swarms is overcoming the highly system-dependent inverse-design problem for predicting and realizing collective behavior.
 
-% \textbf{Hypothesis.} %
-% Our central hypothesis is that the inverse-design problem can be made tractable by introducing an intermediate abstraction layer---\emph{behavioral rules}---between desired collective behaviors and their physical realization.
-% Behavioral rules specify the local actions that an individual robot takes in response to neighboring robots or its surrounding environment, providing a platform-independent description of robot behavior.
-% Rather than mapping directly from robot morphology, actuation mechanisms, local interactions, and environmental physics to collective behavior, behavioral rules decompose the inverse-design problem into two more tractable subproblems: 
-% (i) determining the behavioral rules required to produce a desired collective behavior, and 
-% (ii) determining how a particular microrobot platform can physically realize those behavioral rules.
-% In this way, behavioral rules become a design language for microrobotic swarms, enabling the inverse design and experimental realization of programmable collective behavior under the physical and computational constraints imposed at the microscale.
-
-
 \textbf{Research Concept.}
-The central premise of this work is that the inverse-design problem can be made tractable by introducing an intermediate abstraction layer---behavioral rules---between desired collective behaviors and their physical realization. Inspired by classic distributed behavioral models of flocking and swarming, in which simple agent-level rules generate collective motion~\cite{Reynolds1987Boids,Vicsek1995SelfDrivenParticles,Couzin2002CollectiveMemory}, behavioral rules specify coarse-grained local response laws for individual microrobots. Operationally, a behavioral rule is a measurable input-output relationship: the change in a robot's motion, interaction, or internal state that results from a specified local configuration of neighboring robots and environmental cues. For example, a rule may describe how a robot changes its propulsion direction or internal logic state when a neighboring robot enters a specified range and orientation.
+The central premise of this work is that the inverse-design problem can be made tractable by introducing an intermediate abstraction layer---behavioral rules---between desired collective behaviors and their physical realization. 
+Inspired by classic distributed behavioral models of flocking and swarming, in which simple agent-level rules generate collective motion~\cite{Reynolds1987Boids,Vicsek1995SelfDrivenParticles,Couzin2002CollectiveMemory}, behavioral rules specify coarse-grained local response laws for individual microrobots. 
+Operationally, a behavioral rule is a measurable input-output relationship: the change in a robot's motion, interaction, or internal state that results from a specified local configuration of neighboring robots and environmental cues. 
+For example, a rule may describe how a robot changes its propulsion direction or internal logic state when a neighboring robot enters a specified range and orientation.
 
-Rather than mapping directly from robot morphology, actuation mechanisms, local interactions, and environmental physics to collective behavior, this intermediate layer decomposes the inverse-design problem into two more tractable subproblems: (i) determining the behavioral rules required to produce a desired collective behavior, and (ii) determining how a particular microrobot platform can physically realize those behavioral rules. In this way, a calibrated library of behavioral rules provides a design framework for microrobotic swarms, enabling physical robot design, reduced-order modeling, and swarm-scale collective behavior to be connected within a common predictive framework.
-% In this way, a calibrated library of behavioral rules becomes a design language for microrobotic swarms, enabling the inverse design and experimental realization of programmable collective behavior under the physical and computational constraints imposed at the microscale.
+Rather than mapping directly from robot morphology, actuation mechanisms, local interactions, and environmental physics to collective behavior, this intermediate layer decomposes the inverse-design problem into two more tractable subproblems: (i) determining the behavioral rules required to produce a desired collective behavior and (ii) determining how a particular microrobot platform can physically realize those behavioral rules.
+In this way, a calibrated library of behavioral rules provides a design framework for microrobotic swarms, enabling physical robot design, reduced-order modeling, and swarm-scale collective behavior to be connected within a common predictive framework.
 
 \textbf{Approach.} %
 We will develop Behaviorally Encoded Acoustic Microrobots (BEAMs): 3D-printed, acoustically powered microrobots that combine bistable mechanical logic with programmable magnetic interactions to realize local behavioral rules through physical interactions.
-To understand and predict these interactions, we will develop a Brownian dynamics microscale model of BEAMs that captures their propulsion, mechanical logic, and neighbor interactions, and systematically coarse-grain this detailed description using projection-operator methods.
-% The resulting reduced model will be represented within the Active Brownian Unicycle (ABU) framework, providing a common mathematical language for behavioral rules, collective behavior, and the inverse design of programmable microrobot swarms.
-The resulting reduced model will be represented within the Active Brownian Unicycle (ABU) framework, a stochastic model that describes each microrobot by its position, propulsion direction, Brownian motion, and local steering response, thereby providing a common mathematical language for behavioral rules, collective behavior, and the inverse design of programmable microrobot swarms.
-
+To understand and predict these interactions, we will develop a microscale Brownian dynamics model of BEAMs that captures the local physics of their propulsion, mechanical logic, and neighbor interactions.
+In addition to this microscale model, we will use project-operator methods to systematically generate a coarse-grained representation of BEAMs as an Active Brownian Unicycle (ABU).
+The reduced-order ABU modeling framework provides a description of behavioral rules and collective behavior that is abstracted from local physics, and can therefore provide a common mathematical language for the inverse design of programmable microrobot swarms.
 
 \textbf{Aims.} %
-% Behavioral rules provide a design language for programmable microrobot swarms, but realizing this vision requires more than a theoretical abstraction. 
-% Realizing this vision requires more than a theoretical abstraction. It requires a design pipeline that connects physical microrobot architecture, coarse-grained local response laws, and emergent collective behavior.
-% It requires a complete design pipeline that connects physical microrobot architecture, local behavioral rules, and emergent collective behavior. 
 Realizing this vision requires a framework that connects physical microrobot architecture, coarse-grained local response laws, and emergent collective behavior.
 The central objective of this project is to establish this framework by integrating theory, coarse-grained simulation, and experimental realization into a unified approach for designing programmable microrobot swarms. 
 To achieve this objective, the proposed research is organized into three tightly coupled aims.
 
 \textbf{Aim 1: Establish a behavioral-rule framework for programmable microrobot swarms.}
-% Develop the theoretical and experimental foundations for representing behavioral rules through the ABU framework and BEAMs, establishing a common language for describing local interactions and collective behavior.
-% Develop the theoretical and experimental foundations for representing behavioral rules, using the ABU framework and BEAMs, as coarse-grained local response laws, establishing a common language for describing local interactions and collective behavior.
-Develop the theoretical and experimental foundations for representing behavioral rules as coarse-grained local response laws using the ABU framework and BEAMs, establishing a common language for describing local interactions and collective behavior.
-We will formulate the ABU framework, develop coarse-graining methods that relate detailed microscale dynamics to behavioral rules, and create first-generation BEAMs that demonstrate the essential capabilities of behavioral-rule microrobots, including acoustic propulsion, stable internal logic states, local interactions with neighboring robots, and interaction-driven changes in behavior.
+Develop theoretical and experimental foundations for representing behavioral rules as coarse-grained local response laws using the ABU framework and BEAMs, establishing a common language for describing local interactions and collective behavior.
+We will formulate the ABU framework, develop coarse-graining methods that relate detailed microscale dynamics to behavioral rules, and create first-generation BEAMs that demonstrate the essential capabilities of behavioral-rule microrobots, including acoustic propulsion, stable internal logic states, local magnetic interactions with neighboring robots, and interaction-driven changes in behavior.
 
 \textbf{Aim 2: Connect physical microrobot design to behavioral rules.}
-% Develop and validate a multiscale modeling framework that links BEAM design parameters and microscale interactions to behavioral rules through coarse-graining, while iteratively refining both the theoretical models and the experimental platform.
 Develop and validate a multiscale modeling framework that identifies how BEAM design parameters and microscale physical interactions give rise to measurable behavioral rules.
 We will systematically vary BEAM design parameters (e.g., magnetic interaction strength, acoustic streaming, and compliant mechanical logic) to determine how physical design governs behavioral rules, using iterative comparisons between theory and experiment to refine both the microscale model and the BEAM architecture while demonstrating representative collective behaviors.
 
@@ -214,10 +195,7 @@ We will systematically vary BEAM design parameters (e.g., magnetic interaction s
 Use the validated framework to design new BEAM architectures that realize distinct behavioral rules and demonstrate that the resulting collective behaviors can be predicted from the model and reproduced experimentally.
 We will implement multiple behavioral-rule architectures, predict their emergent collective behaviors using the ABU framework, and experimentally verify representative examples of aggregation, flocking, toroidal motion, or other programmable collective modes.
 
-
-
 \textbf{Intellectual Merit.} %
-% This project establishes a general framework for programmable collective behavior in microrobot swarms by introducing behavioral rules as a design language that connects physical robot design to emergent collective behavior. 
 This project establishes a predictive framework for programmable collective behavior in microrobot swarms by using behavioral rules as an intermediate layer between physical robot design and emergent collective behavior.
 The proposed theoretical and experimental framework will provide predictive models, quantitative design rules, and an experimentally validated pathway for engineering distributed intelligence under the physical and computational constraints imposed at the microscale.
 More broadly, this work advances the foundations of swarm robotics by extending programmable collective control to stochastic microscale environments and establishing a scalable framework that is largely independent of any single propulsion mechanism or application domain.
@@ -258,20 +236,3 @@ Support for two PhD students, supplies, travel, and indirect costs. Approximatel
 \printbibliography[heading=none]
 
 \end{document}
-
-%Introduction
-%Problem Description:
-%Hypothesis:
-%Desired Result
-%Benefits:
-%Research Description: 
-%Aim X: 
-%Rationale
-%Hypothesis
-%Approach
-%Task 1
-%Task 2 ...
-%Potential Challenges
-%Deliverable: 
-%Intellectual Merit:
-%Broader Impacts:
