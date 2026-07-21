@@ -685,6 +685,131 @@
       \verb 10.1088/1742-5468/acecfa
       \endverb
     \endentry
+    \entry{Reynolds1987Boids}{inproceedings}{}
+      \name{author}{1}{}{%
+        {{hash=c565938772b0a9629e74a8f8f657693b}{%
+           family={Reynolds},
+           familyi={R\bibinitperiod},
+           given={Craig\bibnamedelima W.},
+           giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Anaheim, California}%
+      }
+      \list{publisher}{1}{%
+        {ACM}%
+      }
+      \strng{namehash}{c565938772b0a9629e74a8f8f657693b}
+      \strng{fullhash}{c565938772b0a9629e74a8f8f657693b}
+      \strng{bibnamehash}{c565938772b0a9629e74a8f8f657693b}
+      \strng{authorbibnamehash}{c565938772b0a9629e74a8f8f657693b}
+      \strng{authornamehash}{c565938772b0a9629e74a8f8f657693b}
+      \strng{authorfullhash}{c565938772b0a9629e74a8f8f657693b}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 14th Annual Conference on Computer Graphics and Interactive Techniques (SIGGRAPH '87)}
+      \field{title}{Flocks, Herds, and Schools: A Distributed Behavioral Model}
+      \field{year}{1987}
+      \field{pages}{25\bibrangedash 34}
+      \range{pages}{10}
+    \endentry
+    \entry{Vicsek1995SelfDrivenParticles}{article}{}
+      \name{author}{5}{}{%
+        {{hash=53b83286febf943118319d73aee8d272}{%
+           family={Vicsek},
+           familyi={V\bibinitperiod},
+           given={Tamas},
+           giveni={T\bibinitperiod}}}%
+        {{hash=e49092463ae827145e6c5db1f68e488c}{%
+           family={Czirók},
+           familyi={C\bibinitperiod},
+           given={András},
+           giveni={A\bibinitperiod}}}%
+        {{hash=e1aafa4a6f7b6d973b7b308d275c740d}{%
+           family={Ben-Jacob},
+           familyi={B\bibinithyphendelim J\bibinitperiod},
+           given={Eshel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=c3374403e0a9bf6fc4c56ad43756d69c}{%
+           family={Cohen},
+           familyi={C\bibinitperiod},
+           given={Inon},
+           giveni={I\bibinitperiod}}}%
+        {{hash=3095bc01b159c211fee2012bc81caf3f}{%
+           family={Shochet},
+           familyi={S\bibinitperiod},
+           given={Ofer},
+           giveni={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{641e452ed783948b193c9ec82f8f8164}
+      \strng{fullhash}{8d1df30ec64ff3f9bddbc0470ea13ad2}
+      \strng{bibnamehash}{8d1df30ec64ff3f9bddbc0470ea13ad2}
+      \strng{authorbibnamehash}{8d1df30ec64ff3f9bddbc0470ea13ad2}
+      \strng{authornamehash}{641e452ed783948b193c9ec82f8f8164}
+      \strng{authorfullhash}{8d1df30ec64ff3f9bddbc0470ea13ad2}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Physical Review Letters}
+      \field{number}{6}
+      \field{title}{Novel Type of Phase Transition in a System of Self-Driven Particles}
+      \field{volume}{75}
+      \field{year}{1995}
+      \field{pages}{1226\bibrangedash 1229}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.75.1226
+      \endverb
+    \endentry
+    \entry{Couzin2002CollectiveMemory}{article}{}
+      \name{author}{5}{}{%
+        {{hash=2f62b6aee41665c647c022eea795e862}{%
+           family={Couzin},
+           familyi={C\bibinitperiod},
+           given={Iain\bibnamedelima D.},
+           giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=e8522f69e0b7ebdc1f923ae82d7449b0}{%
+           family={Krause},
+           familyi={K\bibinitperiod},
+           given={Jens},
+           giveni={J\bibinitperiod}}}%
+        {{hash=b6db3c5ae1ca380e804836bbb90bd8a6}{%
+           family={James},
+           familyi={J\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=beb13fb240d0f37a635982010b6a4bb1}{%
+           family={Ruxton},
+           familyi={R\bibinitperiod},
+           given={Graeme\bibnamedelima D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=3732fd36be57966054822f3397e1b43a}{%
+           family={Franks},
+           familyi={F\bibinitperiod},
+           given={Nigel\bibnamedelima R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b91408bb69967b5c68045d252523b1f2}
+      \strng{fullhash}{319f755b24cd4cedcae2c0c098a23132}
+      \strng{bibnamehash}{319f755b24cd4cedcae2c0c098a23132}
+      \strng{authorbibnamehash}{319f755b24cd4cedcae2c0c098a23132}
+      \strng{authornamehash}{b91408bb69967b5c68045d252523b1f2}
+      \strng{authorfullhash}{319f755b24cd4cedcae2c0c098a23132}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Theoretical Biology}
+      \field{number}{1}
+      \field{title}{Collective Memory and Spatial Sorting in Animal Groups}
+      \field{volume}{218}
+      \field{year}{2002}
+      \field{pages}{1\bibrangedash 11}
+      \range{pages}{11}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

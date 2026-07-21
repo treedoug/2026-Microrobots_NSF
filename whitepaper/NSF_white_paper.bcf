@@ -2362,6 +2362,9 @@
     <bcf:citekey order="5">Abdoli2022</bcf:citekey>
     <bcf:citekey order="5">Hecht2022</bcf:citekey>
     <bcf:citekey order="5">Derivaux2023</bcf:citekey>
+    <bcf:citekey order="6">Reynolds1987Boids</bcf:citekey>
+    <bcf:citekey order="6">Vicsek1995SelfDrivenParticles</bcf:citekey>
+    <bcf:citekey order="6">Couzin2002CollectiveMemory</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
