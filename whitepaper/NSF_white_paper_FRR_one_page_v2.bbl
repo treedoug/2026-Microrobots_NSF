@@ -1,0 +1,795 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global/global}
+  \entry{Palagi2018}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=PS}{%
+         family={Palagi},
+         familyi={P\bibinitperiod},
+         given={Stefano},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=FP}{%
+         family={Fischer},
+         familyi={F\bibinitperiod},
+         given={Peer},
+         giveni={P\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PSFP1}
+    \strng{fullhash}{PSFP1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s41578-018-0016-9
+    \endverb
+    \field{pages}{113\bibrangedash 124}
+    \field{title}{Bioinspired microrobots}
+    \field{volume}{3}
+    \field{journaltitle}{Nature Reviews Materials}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Sun2019}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=SJ}{%
+         family={Sun},
+         familyi={S\bibinitperiod},
+         given={Jiawei},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=MM}{%
+         family={Mathesh},
+         familyi={M\bibinitperiod},
+         given={Motilal},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=LW}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Wei},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=WDA}{%
+         family={Wilson},
+         familyi={W\bibinitperiod},
+         given={Daniela\bibnamedelima A.},
+         giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{SJ+1}
+    \strng{fullhash}{SJMMLWWDA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1021/acsnano.9b03358
+    \endverb
+    \field{pages}{10191\bibrangedash 10200}
+    \field{title}{Enzyme-Powered Nanomotors with Controlled Size for Biomedical
+  Applications}
+    \field{volume}{13}
+    \field{journaltitle}{ACS Nano}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Koleoso2020}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=KM}{%
+         family={Koleoso},
+         familyi={K\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=FX}{%
+         family={Feng},
+         familyi={F\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=XY}{%
+         family={Xue},
+         familyi={X\bibinitperiod},
+         given={Y.},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=LQ}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Q.},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=MT}{%
+         family={Munshi},
+         familyi={M\bibinitperiod},
+         given={T.},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CX}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={X.},
+         giveni={X\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{KM+1}
+    \strng{fullhash}{KMFXXYLQMTCX1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1016/j.mtbio.2020.100085
+    \endverb
+    \field{pages}{100085}
+    \field{title}{Micro/nanoscale magnetic robots for biomedical applications}
+    \field{volume}{8}
+    \field{journaltitle}{Materials Today Bio}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Gumuskaya2023}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=GG}{%
+         family={Gumuskaya},
+         familyi={G\bibinitperiod},
+         given={Gizem},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=SP}{%
+         family={Srivastava},
+         familyi={S\bibinitperiod},
+         given={Pranjal},
+         giveni={P\bibinitperiod},
+      }}%
+      {{hash=CBG}{%
+         family={Cooper},
+         familyi={C\bibinitperiod},
+         given={Ben\bibnamedelima G.},
+         giveni={B\bibinitperiod\bibinitdelim G\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Lesser},
+         familyi={L\bibinitperiod},
+         given={Hannah},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SB}{%
+         family={Semegran},
+         familyi={S\bibinitperiod},
+         given={Ben},
+         giveni={B\bibinitperiod},
+      }}%
+      {{hash=GS}{%
+         family={Garnier},
+         familyi={G\bibinitperiod},
+         given={Simon},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LM}{%
+         family={Levin},
+         familyi={L\bibinitperiod},
+         given={Michael},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{GG+1}
+    \strng{fullhash}{GGSPCBGLHSBGSLM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/advs.202303575
+    \endverb
+    \field{title}{Motile Living Biobots Self‐Construct from Adult Human
+  Somatic Progenitor Seed Cells}
+    \field{volume}{11}
+    \field{journaltitle}{Advanced Science}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Maria‐Hormigos2022}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=MHR}{%
+         family={Maria-Hormigos},
+         familyi={M\bibinithyphendelim H\bibinitperiod},
+         given={Roberto},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=MMCC}{%
+         family={Mayorga-Martinez},
+         familyi={M\bibinithyphendelim M\bibinitperiod},
+         given={Carmen\bibnamedelima C.},
+         giveni={C\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pumera},
+         familyi={P\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{MHRMMCCPM1}
+    \strng{fullhash}{MHRMMCCPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/smtd.202201014
+    \endverb
+    \field{pages}{2201014}
+    \field{title}{Soft Magnetic Microrobots for Photoactive Pollutant Removal}
+    \field{volume}{7}
+    \field{journaltitle}{Small Methods}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Urso2023}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=UM}{%
+         family={Urso},
+         familyi={U\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=UM}{%
+         family={Ussia},
+         familyi={U\bibinitperiod},
+         given={Martina},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pumera},
+         familyi={P\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UMUMPM1}
+    \strng{fullhash}{UMUMPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1038/s44222-023-00025-9
+    \endverb
+    \field{pages}{236\bibrangedash 251}
+    \field{title}{Smart micro- and nanorobots for water purification}
+    \field{volume}{1}
+    \field{journaltitle}{Nature Reviews Bioengineering}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Preetam2024}{article}{}{}
+    \name{author}{1}{}{%
+      {{hash=PS}{%
+         family={Preetam},
+         familyi={P\bibinitperiod},
+         given={Subham},
+         giveni={S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PS1}
+    \strng{fullhash}{PS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1039/d3na01106b
+    \endverb
+    \field{pages}{2569\bibrangedash 2581}
+    \field{title}{Nano revolution: pioneering the future of water reclamation
+  with micro-/nano-robots}
+    \field{volume}{6}
+    \field{journaltitle}{Nanoscale Advances}
+    \field{year}{2024}
+  \endentry
+
+  \entry{Urso2022}{article}{}{}
+    \name{author}{2}{}{%
+      {{hash=UM}{%
+         family={Urso},
+         familyi={U\bibinitperiod},
+         given={Mario},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=PM}{%
+         family={Pumera},
+         familyi={P\bibinitperiod},
+         given={Martin},
+         giveni={M\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{UMPM1}
+    \strng{fullhash}{UMPM1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/adfm.202112120
+    \endverb
+    \field{pages}{236\bibrangedash 251}
+    \field{title}{Nano/Microplastics Capture and Degradation by Autonomous
+  Nano/Microrobots: A Perspective}
+    \field{volume}{32}
+    \field{journaltitle}{Advanced Functional Materials}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Ling2018}{article}{}{}
+    \name{author}{9}{}{%
+      {{hash=LS}{%
+         family={Ling},
+         familyi={L\bibinitperiod},
+         given={Shengjie},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=JK}{%
+         family={Jin},
+         familyi={J\bibinitperiod},
+         given={Kai},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=QZ}{%
+         family={Qin},
+         familyi={Q\bibinitperiod},
+         given={Zhao},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=LC}{%
+         family={Li},
+         familyi={L\bibinitperiod},
+         given={Chunmei},
+         giveni={C\bibinitperiod},
+      }}%
+      {{hash=ZK}{%
+         family={Zheng},
+         familyi={Z\bibinitperiod},
+         given={Ke},
+         giveni={K\bibinitperiod},
+      }}%
+      {{hash=ZY}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Yanyan},
+         giveni={Y\bibinitperiod},
+      }}%
+      {{hash=WQ}{%
+         family={Wang},
+         familyi={W\bibinitperiod},
+         given={Qi},
+         giveni={Q\bibinitperiod},
+      }}%
+      {{hash=KDL}{%
+         family={Kaplan},
+         familyi={K\bibinitperiod},
+         given={David\bibnamedelima L.},
+         giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=BMJ}{%
+         family={Buehler},
+         familyi={B\bibinitperiod},
+         given={Markus\bibnamedelima J.},
+         giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{LS+1}
+    \strng{fullhash}{LSJKQZLCZKZYWQKDLBMJ1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/adma.201802306
+    \endverb
+    \field{title}{Combining In Silico Design and Biomimetic Assembly: A New
+  Approach for Developing High‐Performance Dynamic Responsive
+  Bio‐Nanomaterials}
+    \field{volume}{30}
+    \field{journaltitle}{Advanced Materials}
+    \field{year}{2018}
+  \endentry
+
+  \entry{Zhang2019}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=ZH}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Heng},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=BX}{%
+         family={Bu},
+         familyi={B\bibinitperiod},
+         given={Xiuming},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yip},
+         familyi={Y\bibinitperiod},
+         given={SenPo},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LX}{%
+         family={Liang},
+         familyi={L\bibinitperiod},
+         given={Xiaoguang},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=HJC}{%
+         family={Ho},
+         familyi={H\bibinitperiod},
+         given={Johnny\bibnamedelima C.},
+         giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZH+1}
+    \strng{fullhash}{ZHBXYSLXHJC1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/aisy.201900085
+    \endverb
+    \field{pages}{1900085}
+    \field{title}{Self‐Assembly of Colloidal Particles for Fabrication of
+  Structural Color Materials toward Advanced Intelligent Systems}
+    \field{volume}{2}
+    \field{journaltitle}{Advanced Intelligent Systems}
+    \field{year}{2019}
+  \endentry
+
+  \entry{Parreira2020}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=PR}{%
+         family={Parreira},
+         familyi={P\bibinitperiod},
+         given={Raquel},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=�E}{%
+         family={Özelçi},
+         familyi={�\bibinitperiod},
+         given={Ece},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=SMS}{%
+         family={Sakar},
+         familyi={S\bibinitperiod},
+         given={Mahmut\bibnamedelima Selman},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PR�ESMS1}
+    \strng{fullhash}{PR�ESMS1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1002/aisy.202000062
+    \endverb
+    \field{pages}{2000062}
+    \field{title}{Remotely Controlled Colloidal Assembly of Soft Microrobotic
+  Artificial Muscle}
+    \field{volume}{2}
+    \field{journaltitle}{Advanced Intelligent Systems}
+    \field{year}{2020}
+  \endentry
+
+  \entry{Zhao2023}{article}{}{}
+    \name{author}{7}{}{%
+      {{hash=ZX}{%
+         family={Zhao},
+         familyi={Z\bibinitperiod},
+         given={Xiaoyan},
+         giveni={X\bibinitperiod},
+      }}%
+      {{hash=GW}{%
+         family={Gao},
+         familyi={G\bibinitperiod},
+         given={Weihong},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=YS}{%
+         family={Yang},
+         familyi={Y\bibinitperiod},
+         given={Shu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LJ}{%
+         family={Liu},
+         familyi={L\bibinitperiod},
+         given={Jiakun},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=HMS}{%
+         family={Hasan},
+         familyi={H\bibinitperiod},
+         given={Md\bibnamedelima Said},
+         giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+      }}%
+      {{hash=ZZ}{%
+         family={Zhang},
+         familyi={Z\bibinitperiod},
+         given={Zhiyue},
+         giveni={Z\bibinitperiod},
+      }}%
+      {{hash=CH}{%
+         family={Chen},
+         familyi={C\bibinitperiod},
+         given={Huanhuan},
+         giveni={H\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZX+1}
+    \strng{fullhash}{ZXGWYSLJHMSZZCH1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1177/00405175221146291
+    \endverb
+    \field{pages}{2877\bibrangedash 2893}
+    \field{title}{From silica colloidal particles to photonic crystals:
+  Progress in fabrication and application of structurally colored materials}
+    \field{volume}{93}
+    \field{journaltitle}{Textile Research Journal}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Abdoli2022}{article}{}{}
+    \name{author}{6}{}{%
+      {{hash=AI}{%
+         family={Abdoli},
+         familyi={A\bibinitperiod},
+         given={Iman},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=WR}{%
+         family={Wittmann},
+         familyi={W\bibinitperiod},
+         given={René},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=BJ}{%
+         family={Brader},
+         familyi={B\bibinitperiod},
+         given={Joseph},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=SJU}{%
+         family={Sommer},
+         familyi={S\bibinitperiod},
+         given={Jens-Uwe},
+         giveni={J\bibinithyphendelim U\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Löwen},
+         familyi={L\bibinitperiod},
+         given={Hartmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=SA}{%
+         family={Sharma},
+         familyi={S\bibinitperiod},
+         given={Abhinav},
+         giveni={A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {Research Square Platform LLC}%
+    }
+    \strng{namehash}{AI+1}
+    \strng{fullhash}{AIWRBJSJULHSA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.21203/rs.3.rs-1870440/v1
+    \endverb
+    \field{title}{Tunable Brownian magneto heat pump}
+    \field{journaltitle}{Research Square (preprint)}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Hecht2022}{article}{}{}
+    \name{author}{4}{}{%
+      {{hash=HL}{%
+         family={Hecht},
+         familyi={H\bibinitperiod},
+         given={Lukas},
+         giveni={L\bibinitperiod},
+      }}%
+      {{hash=MS}{%
+         family={Mandal},
+         familyi={M\bibinitperiod},
+         given={Suvendu},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=LH}{%
+         family={Löwen},
+         familyi={L\bibinitperiod},
+         given={Hartmut},
+         giveni={H\bibinitperiod},
+      }}%
+      {{hash=LB}{%
+         family={Liebchen},
+         familyi={L\bibinitperiod},
+         given={Benno},
+         giveni={B\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{HL+1}
+    \strng{fullhash}{HLMSLHLB1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/physrevlett.129.178001
+    \endverb
+    \field{pages}{178001}
+    \field{title}{Active Refrigerators Powered by Inertia}
+    \field{volume}{129}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{2022}
+  \endentry
+
+  \entry{Derivaux2023}{article}{}{}
+    \name{author}{3}{}{%
+      {{hash=DJF}{%
+         family={Derivaux},
+         familyi={D\bibinitperiod},
+         given={Jean-François},
+         giveni={J\bibinithyphendelim F\bibinitperiod},
+      }}%
+      {{hash=JRL}{%
+         family={Jack},
+         familyi={J\bibinitperiod},
+         given={Robert\bibnamedelima L},
+         giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=CME}{%
+         family={Cates},
+         familyi={C\bibinitperiod},
+         given={Michael\bibnamedelima E},
+         giveni={M\bibinitperiod\bibinitdelim E\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{DJFJRLCME1}
+    \strng{fullhash}{DJFJRLCME1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1088/1742-5468/acecfa
+    \endverb
+    \field{pages}{083212}
+    \field{title}{Active–passive mixtures with bulk loading: a minimal active
+  engine in one dimension}
+    \field{volume}{2023}
+    \field{journaltitle}{Journal of Statistical Mechanics: Theory and
+  Experiment}
+    \field{year}{2023}
+  \endentry
+
+  \entry{Reynolds1987Boids}{inproceedings}{}{}
+    \name{author}{1}{}{%
+      {{hash=RCW}{%
+         family={Reynolds},
+         familyi={R\bibinitperiod},
+         given={Craig\bibnamedelima W.},
+         giveni={C\bibinitperiod\bibinitdelim W\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {ACM}%
+    }
+    \strng{namehash}{RCW1}
+    \strng{fullhash}{RCW1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{booktitle}{Proceedings of the 14th Annual Conference on Computer
+  Graphics and Interactive Techniques (SIGGRAPH '87)}
+    \field{pages}{25\bibrangedash 34}
+    \field{title}{Flocks, Herds, and Schools: A Distributed Behavioral Model}
+    \list{location}{1}{%
+      {Anaheim, California}%
+    }
+    \field{year}{1987}
+  \endentry
+
+  \entry{Vicsek1995SelfDrivenParticles}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=VT}{%
+         family={Vicsek},
+         familyi={V\bibinitperiod},
+         given={Tamas},
+         giveni={T\bibinitperiod},
+      }}%
+      {{hash=CA}{%
+         family={Czir{\'o}k},
+         familyi={C\bibinitperiod},
+         given={Andr{\'a}s},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=BJE}{%
+         family={Ben-Jacob},
+         familyi={B\bibinithyphendelim J\bibinitperiod},
+         given={Eshel},
+         giveni={E\bibinitperiod},
+      }}%
+      {{hash=CI}{%
+         family={Cohen},
+         familyi={C\bibinitperiod},
+         given={Inon},
+         giveni={I\bibinitperiod},
+      }}%
+      {{hash=SO}{%
+         family={Shochet},
+         familyi={S\bibinitperiod},
+         given={Ofer},
+         giveni={O\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{VT+1}
+    \strng{fullhash}{VTCABJECISO1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \verb{doi}
+    \verb 10.1103/PhysRevLett.75.1226
+    \endverb
+    \field{number}{6}
+    \field{pages}{1226\bibrangedash 1229}
+    \field{title}{Novel Type of Phase Transition in a System of Self-Driven
+  Particles}
+    \field{volume}{75}
+    \field{journaltitle}{Physical Review Letters}
+    \field{year}{1995}
+  \endentry
+
+  \entry{Couzin2002CollectiveMemory}{article}{}{}
+    \name{author}{5}{}{%
+      {{hash=CID}{%
+         family={Couzin},
+         familyi={C\bibinitperiod},
+         given={Iain\bibnamedelima D.},
+         giveni={I\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=KJ}{%
+         family={Krause},
+         familyi={K\bibinitperiod},
+         given={Jens},
+         giveni={J\bibinitperiod},
+      }}%
+      {{hash=JR}{%
+         family={James},
+         familyi={J\bibinitperiod},
+         given={Richard},
+         giveni={R\bibinitperiod},
+      }}%
+      {{hash=RGD}{%
+         family={Ruxton},
+         familyi={R\bibinitperiod},
+         given={Graeme\bibnamedelima D.},
+         giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=FNR}{%
+         family={Franks},
+         familyi={F\bibinitperiod},
+         given={Nigel\bibnamedelima R.},
+         giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{CID+1}
+    \strng{fullhash}{CIDKJJRRGDFNR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{1}
+    \field{pages}{1\bibrangedash 11}
+    \field{title}{Collective Memory and Spatial Sorting in Animal Groups}
+    \field{volume}{218}
+    \field{journaltitle}{Journal of Theoretical Biology}
+    \field{year}{2002}
+  \endentry
+\enddatalist
+\endinput

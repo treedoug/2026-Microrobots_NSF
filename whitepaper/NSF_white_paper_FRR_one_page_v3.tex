@@ -1,0 +1,170 @@
+% !TeX program = pdflatex
+% !BIB program = bibtex
+% !BIB TS-program = bibtex
+% Build references with BibTeX (or use latexmk); a biber install is not needed.
+% Condensed from NSF_white_paper.tex; the original is unchanged.
+% Uses the original white-paper template and refs.bib (biblatex/BibTeX).
+% Figure asset: figs/fig-inverse_design_v2.2.pdf (from the original white paper).
+% Review flags (not printed):
+% Q1 -- AUTHOR CHECK: Specify how a local input is detected, changes the
+% mechanical logic state, and affects action. Clarify whether this constitutes
+% sensing, information processing, and planning under the FRR definition.
+% Offline inverse design is performed by researchers, not by the robot.
+% Q2 -- AUTHOR CHECK: Identify comparable existing robots and the capability
+% they lack, plus a measurable improvement and experimental success criterion.
+% The source supplies no benchmark; no first-of-its-kind claim is made here.
+% Q3 -- SCOPE: BEAMs are the proposed experimental platform. Transferability
+% to other platforms is a longer-term objective, not a demonstrated result.
+% Programming refers to physical design; runtime reprogramming is not claimed.
+
+% ----- preamble -----
+% {{{
+\documentclass[11pt]{article}
+
+% page geometry, margins and figures
+\usepackage{geometry}
+\geometry{letterpaper, portrait, margin=0.80in}
+
+% color and figures
+\usepackage{wrapfig}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{graphicx}
+
+% Unused math and chemistry packages from the full template are omitted.
+
+% font and paragraph spacing
+\setlength{\parindent}{0pt} % no indent
+\setlength{\parskip}{0.30\baselineskip} % adjust length a bit more; narrow = 0.25; wider = 0.34
+\renewcommand{\baselinestretch}{0.95} % NSF PAPPG allows 54 lines per 9 in page (6 lines/in). 0.88 gives this.
+\usepackage[T1]{fontenc}
+\usepackage{lmodern} % scalable Computer Modern-style fonts
+\usepackage[utf8]{inputenc}
+\usepackage{microtype} % magic package that fixed the problem with my reference in the margin!!
+\renewcommand{\familydefault}{\sfdefault} % for sans serif font
+
+% --- bibliography ---
+\usepackage[style=numeric-comp, eprint, backend=bibtex, doi=true,
+            maxbibnames=99, sorting=none, isbn=false]{biblatex}
+\renewbibmacro{in:}{}
+\addbibresource{refs.bib}
+\let\cite=\supercite
+\AtBeginBibliography{\setlength{\emergencystretch}{1em}}
+
+% allow reference without brackets
+\DeclareCiteCommand{\citenum}
+  {}
+  {\printfield{labelnumber}}
+  {}
+  {}
+
+% --- Compact title/authors (no affiliations) ---
+\makeatletter
+\renewcommand{\maketitle}{%
+  \par\begingroup\centering
+  {\Large\bfseries\@title\par}
+  \vspace{0.35\baselineskip}
+  {\normalsize\@author\par}
+  \endgroup\vspace{0.6\baselineskip}}
+\makeatother
+
+% --- Format sections ---
+\usepackage{titlesec}
+% Reduce spacing around section/subsection titles
+\titleformat{\section}{\normalfont\Large\bfseries}{\thesection}{1em}{}
+\titlespacing*{\section}{0pt}{1.5ex plus 1ex minus .2ex}{0.5ex plus .2ex}
+\titleformat{\subsection}{\normalfont\large\bfseries}{\thesubsection}{1em}{}
+\titlespacing*{\subsection}{0pt}{1ex plus 1ex minus .2ex}{0.5ex plus .2ex}
+
+% Caption formatting, make Figure->Fig.
+\usepackage[font=footnotesize, labelfont=bf, labelsep=period, figurename=Figure]{caption} % caption formatting
+
+% adjust bullets, list spacing to make a bit more compact
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=2.5ex, label=\raisebox{0.25ex}{\tiny$\bullet$}, parsep=0.25ex}
+
+% --- Format header and footer ---
+\usepackage{fancyhdr} % add/modify header & footer
+\setlength{\headheight}{23pt}
+\setlength{\headsep}{14pt} % fit the full header above the original text position
+\pagestyle{fancy}
+\fancyhf{} % sets both header and footer to nothing
+\renewcommand{\headrulewidth}{0pt}
+\lhead{ \small\color{gray}W{\scriptsize{}HITE} P{\scriptsize{}APER} | C{\scriptsize{}ONFIDENTIAL}\par{}}
+\chead{ \small\color{gray}}
+\rhead{\includegraphics[width=5.0cm]{figs/BYUEng_Watermark.pdf}\vspace{-1ex}}
+\lfoot{ \small\textcolor{gray}\today{}\par}
+\rfoot{\thepage}
+
+\date{} % no date in title, put in footnote
+
+% --- Commenting ---
+\newcommand{\rewrite}[1]{{\color{red}#1}}
+\newcommand{\edit}[1]{{\color{blue}#1}}
+\newcommand{\expand}[1]{{\color{purple}#1}}
+
+\newcommand{\highlight}[1]{{\color{RoyalBlue}#1}}
+
+%Merit Review Criteria 
+%(See NSF Proposal & Award Policies & Procedures Guide, Chapter III.A.2.)
+%All NSF proposals are evaluated through use of two National Science Board approved merit review criteria listed below. In some instances, however, NSF will employ additional criteria as required to highlight the specific objectives of certain programs and activities. Both criteria are to be given full consideration in the review; each criterion is necessary but neither, by itself, is sufficient.
+%As a reviewer you are asked to consider what the proposers want to do, why they want to do it, how they plan to do it, how they will know if they succeed, and what benefits could accrue if the project is successful. These issues apply both to the technical aspects of the proposal and the way in which the project may make broader contributions.
+%Please consider the following review elements in your review for the review criteria below:
+%•	What is the potential for the proposed activity to:
+%o	Advance knowledge and understanding within its own field or across different fields (Intellectual Merit); and
+%o	Benefit society or advance desired societal outcomes (Broader Impacts)?
+%•	To what extent do the proposed activities suggest and explore creative, original, or potentially transformative concepts?
+%•	Is the plan for carrying out the proposed activities well-reasoned, well-organized, and based on a sound rationale? Does the plan incorporate a mechanism to assess success?
+%•	How well qualified is the individual, team, or organization to conduct the proposed activities?
+%•	Are there adequate resources available to the PI (either at the home organization or through collaborations) to carry out the proposed activities?
+%Note that if additional supplementary documents are contained in the proposal, they should be reviewed as part of the Intellectual Merits and Broader Impacts, as appropriate.
+% }}}
+
+% ----- document text -----
+\begin{document}
+
+\title{A Predictive Design Framework for Programming Collective Behavior in Microrobot Swarms}
+\author{Cameron K. Peterson, Douglas R. Tree, and Joseph Rich}
+
+\maketitle
+\thispagestyle{fancy}
+
+\textbf{Opportunity and Challenge.}
+Programmable microrobot swarms provide enticing possibilities for performing coordinated tasks in complex environments that conventional devices cannot reach, including transporting therapeutics, carrying out minimally invasive interventions, remediating pollutants, and manipulating dynamic materials.
+However, microscale operation imposes severe limits on onboard power, sensing, computation, and communication, while introducing strong environmental coupling and stochastic disturbances.
+These constraints point to the need for new robotic architectures and paradigms for achieving autonomy, communication, and precise control at the microscale.
+
+A key strategy to overcome the limits of microscale operation involves the use of microrobot swarms.
+Swarms can perform tasks in parallel using many simple robots, avoiding the need to equip each unit with complex capabilities.
+In macroscale swarm robotics, onboard computation and communication let robot swarms implement designed rules for coordinating their actions.
+At the microscale, active micromotors can organize through physical interactions, but the resulting behavior depends strongly on each system's design and is difficult to program predictably.
+We aim to bridge these approaches by developing a framework to design microrobots whose \emph{programmable physical interactions} implement local rules, and to predict how those rules produce desired swarm capabilities.
+The key challenge is to develop both a platform for 1) implementing programmable physical interactions and 2) a theoretical methodology for solving the inverse-design problem that connects these interactions to swarm behavior.
+
+\textbf{Q1. Is there a robot?}
+Yes. 
+We are developing Behaviorally Encoded Acoustic Microrobots (BEAMs): engineered, 3D-printed constructs powered by acoustic fields that combine bistable mechanical logic with programmable magnetic interactions.
+We hypothesize that magnetic interactions within BEAMs will produce mechanical deformations that can switch bistable elements between pre-determined states, thereby changing the robot's local interactions and motion.
+These mechanically encoded responses can implement local input--output rules linking neighboring-robot configurations to changes in the robot's state and action.
+
+\textbf{Q2. What new capability will robots gain?}
+There are two new capabilities: first, microrobots whose robot-to-robot physical responses are a design variable.
+Note the distinction from existing microrobot systems.
+Larger-scale swarming robots rely on conventional power and electronics, strategies that are increasingly difficult to miniaturize to the microscale.
+Existing micromotor systems exhibit collective behavior through interactions inherent to their materials and geometry.
+By contrast, the physically encoded responses in BEAMs provide analog logic (bistable mechanical states) and communication (local magnetic interactions) mechanisms for robot interactions that can be tuned through physical design and extended to the microscale.
+
+Second, we will develop a predictive framework that maps desired swarm behavior to microrobot responses and physical designs, resulting in programmable swarm behavior.
+We will experimentally realize well-known swarm modes such as aggregation, flocking, and toroidal motion using BEAMs.
+Simultaneously, we will develop detailed simulation models of BEAM propulsion, mechanical logic, and neighbor interactions and coarse-grained models of the swarm behavior of BEAMs.
+We will use experimental results to validate the models, thereby enabling us to identify behavioral rule-sets that couple BEAM physical design with desired swarming behavior.
+
+\textbf{Q3. Why is this a fundamental robotics contribution?}
+Our proposal contributes to fundamentals of robotics in at least two ways:
+First, by pushing the limits of robotics to new scales, creating truly microscale robots with analog logic and communication abilities.
+Second, using a combined theory and experimental approach to solve a challenging inverse-design problem that connects robot design, local behavioral rules, and collective behavior at microscopic scales.
+Both innovations are a necessary foundation for advancing microrobotic technologies for medicine, environmental remediation, manufacturing, and programmable materials.
+
+\textbf{Estimated Support.} 
+Approximately \$600K over three years for two PhD students, supplies, travel, and indirect costs.
+
+\end{document}
